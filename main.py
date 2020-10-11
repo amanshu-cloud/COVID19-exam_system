@@ -4,7 +4,7 @@ import numpy as np
 white = 255*np.ones((512,512,3),np.uint8)
 white2 = 255*np.ones((512,512,3),np.uint8)
 black = np.zeros((512,512,3),np.uint8)
-questions = ["name ?","age?","phone?"]
+questions = ["question 1?","question 2?","question 3?"]
 kernel = np.ones((3,3),np.uint8)
 
 cv2.namedWindow('white')
